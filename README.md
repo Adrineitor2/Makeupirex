@@ -1,2 +1,0 @@
-# Makeupirex
-Estilo y bellleza
