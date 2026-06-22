@@ -1,0 +1,174 @@
+:root {
+    --blanco: #ffffff;
+    --obscuro: #212121;
+    --primario: #ff07ff;
+    --secundario: #ff0077;
+    --gris: #757575;
+    --grisclaro: rgb(158, 155, 155);
+    --fuente-principal: rgb(61, 236, 8);
+}
+/*1rem= 10px */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;/*hack para BOX Model*/
+      
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/**Globales**/
+  h1 {
+    font-size: 1.4rem;
+}
+h1 span {
+    font-size: 1.4rem;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+h2 {
+    font-size: 2.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    font-size: 16px;
+   background-image: linear-gradient(to top ,var(--grisclaro) 2% , var(--blanco) 100%);
+   
+}
+/**Header**/
+.titulo {
+    font-family: 'Allison', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+}
+
+.nav-bg {
+    background-color: var(--secundario);
+}
+.blogg{
+    text-align: center;
+    align-items: center;
+    background-image: url(../img/estilo\ y\ glam.JPG);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 600px;
+    position: relative;
+}
+.centrado{
+    text-align: center;
+  align-items: center;
+}
+.boton {
+    background-color: rgb(0, 204, 255);      
+    color: var(--blanco);
+    padding: 1rem 3rem ;    
+   margin-top: 3rem;
+     font-size: 2rem;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-weight: bold;
+     border-radius: .5rem;
+     width: 90%;
+     text-align: center;
+}
+.boton:hover{
+    cursor: pointer;
+}
+@media (min-width: 900px) {
+    .boton{
+        width: auto;
+    }
+}
+.sombra{
+    padding: 2rem;
+    margin-bottom: 3rem;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+    box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+}
+.color-bl{
+    font-family: 'Allison', cursive;
+    text-align: left;
+    color: var(--blanco);
+    font-size: 15rem;
+}
+
+.navini {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+@media (min-width: 925px) {
+    .navini{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.navini * {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navini *:hover{
+    background-color: var(--primario);
+    color: var(--obscuro);
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.subtitulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.textocentrado {
+    text-align: center;
+    font-size: 2rem;
+}
+nav {
+    text-align: center;
+}
+
+.hero {
+    background-image: url(../img/acondicionador.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 450px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.contenido-hero{
+  position: absolute; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+.separacionabajo{
+    padding-bottom: 1rem;
+}
+.separacionarriba{
+    padding-top: 2rem;
+}
+.testimonio{
+
+}
