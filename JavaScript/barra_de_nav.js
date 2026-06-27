@@ -5,4 +5,4 @@ nuevoEnlace.href ='index.html';
 //agregar el texto
 nuevoEnlace.textContent='inicio';
 //agregar la clase
-nuevoEnlace.classList.add('navini contenedor');
+nuevoEnlace.classList.add('navini');
